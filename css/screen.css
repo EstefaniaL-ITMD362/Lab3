@@ -3,7 +3,49 @@
    License: none (public domain)
 */
 /* stylelint-disable*/
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Henny+Penny&family=Open+Sans&family=Roboto&display=swap');
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,
+canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,
+figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,
+img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,
+section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,
+time,tr,tt,u,ul,var,video
+{
+  margin:0;
+  padding:0;
+  border:0;
+  font:inherit;
+  vertical-align:baseline
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section
+{
+  display:block
+}
+html
+{
+  line-height:1
+}
+body
+{
+  line-height:inherit
+}
+ol,ul
+{
+  list-style:none
+}
+blockquote,q
+{
+  quotes:none
+}
+blockquote:after,blockquote:before,q:after,q:before{
+  content:'';
+  content:none
+}
+table
+{
+  border-collapse:collapse;
+  border-spacing:0
+}
 /* stylelint-enable */
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -201,6 +243,53 @@ html {
 label {
   display: block;
 }
+body{
+  background-color: darkgray;
+}
+#content{
+  background-color: grey;
+  width: 80%;
+  padding: 50px;
+  margin: auto;
+}
+#content h1{
+  font-family: 'Henny Penny', cursive;
+  text-align: center;
+}
+
+#content p{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#input-email{
+  font-family: 'Finger Paint', cursive;
+  margin-bottom: 10px;
+  font-size: small;
+  text-align: center;
+  margin-top: 30px;
+}
+#input-age-verification{
+  font-family: 'Finger Paint', cursive;
+  font-size: small;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#age-verification input[type='checkbox']{
+  margin-top: 0;
+  padding-top: 0;
+  color: lightgrey;
+}
+
+#button-h{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 /* ===== LAYOUT STYLES ====== */
 
