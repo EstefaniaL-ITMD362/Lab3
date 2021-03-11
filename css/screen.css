@@ -263,14 +263,14 @@ body{
   margin-top: 5px;
 }
 
-#input-email{
+#input-email, #input-name{
   font-family: 'Finger Paint', cursive;
   margin-bottom: 10px;
   font-size: small;
   text-align: center;
   margin-top: 30px;
 }
-input[type='email']{
+input[type='email'], [type='text']{
   background-color: darkgray;
 }
 #input-age-verification{
