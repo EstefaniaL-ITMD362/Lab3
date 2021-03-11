@@ -291,6 +291,9 @@ input[type='email'], [type='text']{
   margin-left: auto;
   margin-right: auto;
 }
+#button-h li{
+  list-style-type: none;
+}
 input[type='submit']{
   background-color: black;
   color: white;
